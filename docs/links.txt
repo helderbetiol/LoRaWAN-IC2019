@@ -1,0 +1,44 @@
+Alguns links úteis para projeto LoRa/LoRaWAN:
+
+-- LoRa/LoRaWAN --
+Plano de frequências por região:
+https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html
+
+LoRaWAN simply explained
+http://jensd.be/755/network/lorawan-simply-explained
+
+Gateways LoRa: soluções open-source hardware
+https://www.embarcados.com.br/gateways-lora-open-source-hardware/
+
+-- Dragino --
+Dragino LoRa Shield Node Configuration for AU915
+https://www.thomaslaurenson.com/blog/2018/07/21/dragino-lorashield-on-AU915-using-arduino-lmic-library/
+
+LoRa Shield
+http://wiki.dragino.com/index.php?title=Lora_Shield
+
+Gateway
+http://www.dragino.com/products/lora/item/119-lg01-s.html
+
+-- Raspberry Pi --
+Copying an operating system image to an SD card using Mac OS
+https://www.raspberrypi.org/documentation/installation/installing-images/mac.md
+
+A DIY low-cost LoRa gateway
+http://cpham.perso.univ-pau.fr/LORA/RPIgateway.html
+
+-- Arduino --
+(+ Raspberry Pi) Low-cost LoRa IoT framework developed in the EU H2020 WAZIUP/WAZIHUB projects
+https://github.com/CongducPham/LowCostLoRaGw
+
+Tutorial Adafruit
+https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts?view=all
+
+-- EXTRAS --
+Especificações MQTT
+http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html
+
+MQTT client para testes
+https://mqttfx.jensd.de
+
+
