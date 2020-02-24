@@ -1,32 +1,6 @@
 /*******************************************************************************
- * Copyright (c) 2015 Thomas Telkamp and Matthijs Kooijman
- *
- * Permission is hereby granted, free of charge, to anyone
- * obtaining a copy of this document and accompanying files,
- * to do whatever they want with them without any restriction,
- * including, but not limited to, copying, modification and redistribution.
- * NO WARRANTY OF ANY KIND IS PROVIDED.
- *H
- * This example sends a valid LoRaWAN packet with payload "Hello,
- * world!", using frequency and encryption settings matching those of
- * the (early prototype version of) The Things Network.
- *
- * Note: LoRaWAN per sub-band duty-cycle limitation is enforced (1% in g1,
- *  0.1% in g2).
- *
- * Change DEVADDR to a unique address!
- * See http://thethingsnetwork.org/wiki/AddressSpace
- *
- * Do not forget to define the radio type correctly in config.h.
- *
- *
- * Required Library: 
- *    * https://github.com/matthijskooijman/arduino-lmic 
- * 
- * Require Hardware:
- *    * LoRa Shield + Arduino
- *    * LoRa GPS Shield + Arduino 
- *    * LoRa Mini etc. 
+ * Code for Heltec board to communicate with LoRaWAN Server (ABP mode, not OTAA)
+ * Adapted from code used in Arduino endpoints by Helder Betiol
  *******************************************************************************/
 
 #include <lmic.h>

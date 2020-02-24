@@ -172,29 +172,16 @@ void mqtt_publish(int h, int t)
     str2 = str1 + value;
     str1 = str2 + "}";
 
-//StaticJsonBuffer<60> JSONbuffer;
+//  StaticJsonBuffer<60> JSONbuffer;
 //  JsonObject& JSONencoder = JSONbuffer.createObject();
 //
 //  JSONencoder["temperature"] = t;
 //  JSONencoder["humidity"] = h;
-  //JsonArray& values = JSONencoder.createNestedArray("values");
-  //values.add(20);
-  //values.add(21);
-  //values.add(23);
- 
-  //char JSONmessageBuffer[60];
-//  String JSONmessageBuffer = "";
-//  JSONencoder.printTo(JSONmessageBuffer);//, sizeof(JSONmessageBuffer));
-//    String str1 = "";
-//    String str2 = "";
-//    str2 = "\"" + JSONmessageBuffer;
-//    str1 = str2 + "\"";
-    //sprintf(str, "{\"temperature\": %d, \"unit\": \"celsius\", \"humidity\": %d}", t, h);
-//    JSONmessageBuffer[0] = "\"";
-//    JSONmessageBuffer[1] = "{";
-//    JSONmessageBuffer[50] = "\"";
-//    Console.println(JSONmessageBuffer);
-//    p.addParameter(JSONmessageBuffer);
+//  JsonArray& values = JSONencoder.createNestedArray("values");
+//  values.add(20);
+//  values.add(21);
+//  values.add(23);
+  
     Console.println(str1);
     p.addParameter(str1);
     //p.addParameter("{\"temperature\": 29, \"unit\": \"celsius\", \"humidity\": 70}");

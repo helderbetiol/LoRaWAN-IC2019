@@ -27,6 +27,9 @@
  * The DEVEUI and APPKEY values should be obtained from your LoRaWAN server
  *  (e.g., TTN or any private LoRa provider). APPEUI is set to zeroes as 
  * the LoRa Server project does not requre this value.
+ * 
+ * Code modified by Helder Betiol for testing of OTAA with loraserver.io
+ * Note: it does not work with a single channel gateway (join procedure)
  *
  *******************************************************************************/
 

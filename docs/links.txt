@@ -10,6 +10,9 @@ http://jensd.be/755/network/lorawan-simply-explained
 Gateways LoRa: soluções open-source hardware
 https://www.embarcados.com.br/gateways-lora-open-source-hardware/
 
+LoRaWAN Network Server
+https://www.chirpstack.io
+
 -- Dragino --
 Dragino LoRa Shield Node Configuration for AU915
 https://www.thomaslaurenson.com/blog/2018/07/21/dragino-lorashield-on-AU915-using-arduino-lmic-library/
@@ -40,5 +43,4 @@ http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html
 
 MQTT client para testes
 https://mqttfx.jensd.de
-
 

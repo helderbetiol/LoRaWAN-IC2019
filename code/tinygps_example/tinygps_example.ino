@@ -22,6 +22,8 @@
   modified 21 Mar 2017
   by Edwin Chen <support@dragino.com>
   Dragino Technology Co., Limited
+
+  Used for GPS functionality tests by Helder Betiol in 2019.
 */
 
 #include <SoftwareSerial.h>

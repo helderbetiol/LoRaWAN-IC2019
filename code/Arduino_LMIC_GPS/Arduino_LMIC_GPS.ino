@@ -6,19 +6,8 @@
  * to do whatever they want with them without any restriction,
  * including, but not limited to, copying, modification and redistribution.
  * NO WARRANTY OF ANY KIND IS PROVIDED.
- *H
- * This example sends a valid LoRaWAN packet with payload "Hello,
- * world!", using frequency and encryption settings matching those of
- * the (early prototype version of) The Things Network.
  *
- * Note: LoRaWAN per sub-band duty-cycle limitation is enforced (1% in g1,
- *  0.1% in g2).
- *
- * Change DEVADDR to a unique address!
- * See http://thethingsnetwork.org/wiki/AddressSpace
- *
- * Do not forget to define the radio type correctly in config.h.
- *
+ * Original code modify by Helder Betiol to send GPS data in the payload
  *
  * Required Library: 
  *    * https://github.com/matthijskooijman/arduino-lmic 

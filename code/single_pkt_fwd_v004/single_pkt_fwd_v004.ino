@@ -1,3 +1,9 @@
+/*
+ * Packet Forwarding from Dragino GW LG01 to loraserver
+ * Send the LoRaWAN packets received from the endpoints do the server
+ * Original code by Dragino, modifications by Helder Betiol
+ */
+
 #include <FileIO.h>
 #include <Console.h>
 #include <Process.h>

@@ -7,26 +7,14 @@
  * including, but not limited to, copying, modification and redistribution.
  * NO WARRANTY OF ANY KIND IS PROVIDED.
  *
- * This example sends a valid LoRaWAN packet with payload "Hello,
- * world!", using frequency and encryption settings matching those of
- * the The Things Network.
- *
  * This uses ABP (Activation-by-personalisation), where a DevAddr and
  * Session keys are preconfigured (unlike OTAA, where a DevEUI and
  * application key is configured, while the DevAddr and session keys are
  * assigned/generated in the over-the-air-activation procedure).
  *
- * Note: LoRaWAN per sub-band duty-cycle limitation is enforced (1% in
- * g1, 0.1% in g2), but not the TTN fair usage policy (which is probably
- * violated by this sketch when left running for longer)!
- *
- * To use this sketch, first register your application and device with
- * the things network, to set or generate a DevAddr, NwkSKey and
- * AppSKey. Each device should have their own unique values for these
- * fields.
- *
- * Do not forget to define the radio type correctly in config.h.
- *
+ * This modified code simulates the read of temperature by the node (Heltec board) and
+ * sends the data to a LoRaWAN server.
+ * Modification by Helder Betiol
  *******************************************************************************/
 #include <stdlib.h>
 #include <string.h>
